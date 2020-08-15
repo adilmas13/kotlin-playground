@@ -3,12 +3,12 @@ package infix
 /*
 * Simple add infix functions
 * */
-infix fun Int.plus(second: Int) = this + second
+infix fun Int.plus(other: Int) = this + other
 
 /*
 * Function that takes two Immutable list, append them and return a new Immutable List
 * */
-infix fun <T> List<T>.append(second: List<T>) = this.toMutableList().apply { addAll(second) }.toList()
+infix fun <T> List<T>.append(other: List<T>) = this.toMutableList().apply { addAll(other) }.toList()
 
 
 fun main() {
