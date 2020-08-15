@@ -1,5 +1,6 @@
 package dsl_simple
 
+// https://dzone.com/articles/kotlin-dsl-basics
 class Employee(
     var name: String = "",
     var age: Int = 0
