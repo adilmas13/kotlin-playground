@@ -1,1 +1,7 @@
 /out/
+.gradle
+build
+gradle
+gradlew
+gradlew.bat
+kotlin-playground.iml
