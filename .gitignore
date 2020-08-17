@@ -5,3 +5,4 @@ gradle
 gradlew
 gradlew.bat
 kotlin-playground.iml
+src/readJsonAndSplit/output
