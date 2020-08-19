@@ -1,4 +1,4 @@
-package dsl_simple
+package dslSimple
 
 // https://dzone.com/articles/kotlin-dsl-basics
 class Employee(
